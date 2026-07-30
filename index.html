@@ -23,7 +23,7 @@
       <a href="#security">Security</a>
       <a href="#install">Install</a>
     </nav>
-    <a class="header-download" href="downloads/EndpointSupportAgent-Setup.zip" download>
+    <a class="header-download" href="downloads/EndpointSupportAgent-Setup.exe" download>
       <svg viewBox="0 0 24 24" aria-hidden="true">
         <path d="M12 3v11"></path>
         <path d="m7 10 5 5 5-5"></path>
@@ -66,7 +66,7 @@
           common Windows, productivity, network, device, and OEM driver problems.
         </p>
         <div class="hero-actions">
-          <a class="button primary" href="downloads/EndpointSupportAgent-Setup.zip" download>
+          <a class="button primary" href="downloads/EndpointSupportAgent-Setup.exe" download>
             <svg viewBox="0 0 24 24" aria-hidden="true">
               <path d="M12 3v11"></path>
               <path d="m7 10 5 5 5-5"></path>
@@ -92,18 +92,18 @@
     <section class="download-band" aria-labelledby="download-title">
       <div>
         <p class="section-kicker">Current package</p>
-        <h2 id="download-title">Download the setup ZIP</h2>
+        <h2 id="download-title">Download the setup EXE</h2>
         <p>
-          Includes the agent source, MCP server files, PowerShell installer, requirements, and launch helper.
+          A Windows setup executable that installs the agent, MCP server files, dependencies, and launch helper.
         </p>
       </div>
-      <a class="button primary compact" href="downloads/EndpointSupportAgent-Setup.zip" download>
+      <a class="button primary compact" href="downloads/EndpointSupportAgent-Setup.exe" download>
         <svg viewBox="0 0 24 24" aria-hidden="true">
           <path d="M12 3v11"></path>
           <path d="m7 10 5 5 5-5"></path>
           <path d="M5 21h14"></path>
         </svg>
-        EndpointSupportAgent-Setup.zip
+        EndpointSupportAgent-Setup.exe
       </a>
     </section>
 
@@ -222,12 +222,11 @@
       </div>
       <div class="install-layout">
         <ol class="steps">
-          <li>Download and extract <strong>EndpointSupportAgent-Setup.zip</strong>.</li>
-          <li>Open PowerShell as Administrator.</li>
-          <li>Run <strong>Set-ExecutionPolicy -Scope Process Bypass -Force</strong>.</li>
-          <li>Run <strong>.\install-endpoint-support-agent.ps1</strong>.</li>
+          <li>Download <strong>EndpointSupportAgent-Setup.exe</strong>.</li>
+          <li>Run the setup file and follow the console prompts.</li>
           <li>Edit the generated <strong>.env</strong> file and add your OpenRouter API key.</li>
           <li>Launch the agent from the created shortcut or run <strong>Start-EndpointSupportAgent.ps1</strong>.</li>
+          <li>For OEM driver remediation, restart the agent from an Administrator PowerShell session.</li>
         </ol>
         <div class="requirements">
           <h3>Requirements</h3>
@@ -244,7 +243,7 @@
     <section class="cta-section" aria-labelledby="cta-title">
       <p class="section-kicker">Ready to package</p>
       <h2 id="cta-title">Ship the helpdesk assistant as a simple download.</h2>
-      <a class="button primary" href="downloads/EndpointSupportAgent-Setup.zip" download>
+      <a class="button primary" href="downloads/EndpointSupportAgent-Setup.exe" download>
         <svg viewBox="0 0 24 24" aria-hidden="true">
           <path d="M12 3v11"></path>
           <path d="m7 10 5 5 5-5"></path>
