@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Endpoint Support Agent | MCP Hybrid Helpdesk Console</title>
+  <meta name="description" content="Download Endpoint Support Agent, an MCP hybrid Windows helpdesk assistant for diagnostics, remediation approvals, OEM driver workflows, and endpoint support automation.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header" data-elevated="false">
+    <a class="brand" href="#top" aria-label="Endpoint Support Agent home">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 32 32" role="img">
+          <path d="M7 5h18a3 3 0 0 1 3 3v12a3 3 0 0 1-3 3h-6l-3 4-3-4H7a3 3 0 0 1-3-3V8a3 3 0 0 1 3-3Z"></path>
+          <path d="M10 12h12M10 17h8"></path>
+        </svg>
+      </span>
+      <span>Endpoint Support Agent</span>
+    </a>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="#capabilities">Capabilities</a>
+      <a href="#security">Security</a>
+      <a href="#install">Install</a>
+    </nav>
+    <a class="header-download" href="downloads/EndpointSupportAgent-Setup.zip" download>
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M12 3v11"></path>
+        <path d="m7 10 5 5 5-5"></path>
+        <path d="M5 21h14"></path>
+      </svg>
+      Download
+    </a>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-scene" aria-hidden="true">
+        <div class="grid-plane"></div>
+        <div class="console-window primary-window">
+          <div class="window-bar">
+            <span></span><span></span><span></span>
+          </div>
+          <div class="terminal-lines">
+            <p><strong>Endpoint Support Agent</strong></p>
+            <p>OEM driver install pre-check</p>
+            <p>OEM: Lenovo</p>
+            <p>Supported OEM driver tool detected: none</p>
+            <p>OEM utility install available: Lenovo System Update</p>
+            <p class="terminal-success">Recommended action ready after approval</p>
+          </div>
+        </div>
+        <div class="console-window secondary-window">
+          <div class="signal-row"><span>CPU</span><strong>normal</strong></div>
+          <div class="signal-row"><span>Memory</span><strong>checked</strong></div>
+          <div class="signal-row"><span>Updates</span><strong>ready</strong></div>
+        </div>
+      </div>
+
+      <div class="hero-content">
+        <p class="eyebrow">Windows endpoint support automation</p>
+        <h1 id="hero-title">Endpoint Support Agent</h1>
+        <p class="hero-copy">
+          A conversational MCP hybrid helpdesk console that understands endpoint issues,
+          runs safe diagnostics, asks for approval before remediation, and guides users through
+          common Windows, productivity, network, device, and OEM driver problems.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="downloads/EndpointSupportAgent-Setup.zip" download>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 3v11"></path>
+              <path d="m7 10 5 5 5-5"></path>
+              <path d="M5 21h14"></path>
+            </svg>
+            Download setup
+          </a>
+          <a class="button secondary" href="#install">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M8 6h13"></path>
+              <path d="M8 12h13"></path>
+              <path d="M8 18h13"></path>
+              <path d="M3 6h.01"></path>
+              <path d="M3 12h.01"></path>
+              <path d="M3 18h.01"></path>
+            </svg>
+            View install steps
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="download-band" aria-labelledby="download-title">
+      <div>
+        <p class="section-kicker">Current package</p>
+        <h2 id="download-title">Download the setup ZIP</h2>
+        <p>
+          Includes the agent source, MCP server files, PowerShell installer, requirements, and launch helper.
+        </p>
+      </div>
+      <a class="button primary compact" href="downloads/EndpointSupportAgent-Setup.zip" download>
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12 3v11"></path>
+          <path d="m7 10 5 5 5-5"></path>
+          <path d="M5 21h14"></path>
+        </svg>
+        EndpointSupportAgent-Setup.zip
+      </a>
+    </section>
+
+    <section class="section" id="capabilities" aria-labelledby="capabilities-title">
+      <div class="section-heading">
+        <p class="section-kicker">What it does</p>
+        <h2 id="capabilities-title">Built for everyday endpoint issues</h2>
+        <p>
+          The agent combines local troubleshooting knowledge, MCP tools, model selection, and approval-gated remediation
+          so helpdesk teams can move from symptom to safe action faster.
+        </p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card">
+          <span class="feature-icon">01</span>
+          <h3>Conversational triage</h3>
+          <p>Users can describe issues in normal language: slow system, broken camera, Outlook sync, printer queue, VPN, updates, and more.</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-icon">02</span>
+          <h3>MCP hybrid routing</h3>
+          <p>Routes requests through local MCP tools for diagnostics, remediation, knowledge lookup, model control, and endpoint actions.</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-icon">03</span>
+          <h3>Approval-first fixes</h3>
+          <p>Every endpoint-changing action asks for explicit approval, displays risk, and records audit information.</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-icon">04</span>
+          <h3>OEM driver workflow</h3>
+          <p>Detects Dell, HP, Lenovo, or Surface paths and uses OEM utilities for trusted driver updates instead of random driver packages.</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-icon">05</span>
+          <h3>Application repair</h3>
+          <p>Supports common repair paths for Teams, Outlook, OneDrive, Office, browsers, Adobe Reader, Citrix, Slack, Zoom, and Webex.</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-icon">06</span>
+          <h3>Plain-language output</h3>
+          <p>Summaries are written for non-IT users, while technical details remain available when support engineers need raw output.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section coverage-section" aria-labelledby="coverage-title">
+      <div class="section-heading">
+        <p class="section-kicker">Coverage</p>
+        <h2 id="coverage-title">Endpoint areas included</h2>
+      </div>
+      <div class="coverage-list">
+        <span>Performance</span>
+        <span>Storage</span>
+        <span>Network</span>
+        <span>VPN</span>
+        <span>Printers</span>
+        <span>Windows Update</span>
+        <span>Defender</span>
+        <span>Outlook</span>
+        <span>Teams</span>
+        <span>OneDrive</span>
+        <span>Office</span>
+        <span>Browsers</span>
+        <span>Adobe PDF</span>
+        <span>Audio</span>
+        <span>Camera</span>
+        <span>Bluetooth</span>
+        <span>USB</span>
+        <span>Docking</span>
+        <span>Display</span>
+        <span>Startup apps</span>
+        <span>Group Policy</span>
+        <span>Intune</span>
+        <span>SCCM</span>
+        <span>Citrix</span>
+        <span>File shares</span>
+        <span>Remote support</span>
+        <span>OEM drivers</span>
+      </div>
+    </section>
+
+    <section class="section security-section" id="security" aria-labelledby="security-title">
+      <div class="security-copy">
+        <p class="section-kicker">Control and safety</p>
+        <h2 id="security-title">Designed for enterprise support guardrails</h2>
+        <p>
+          The agent separates read-only checks from remediation, blocks unsafe generic driver installs,
+          and requires clear approval before any endpoint-changing action.
+        </p>
+      </div>
+      <div class="assurance-grid">
+        <div>
+          <strong>Explicit approval</strong>
+          <span>No remediation runs silently.</span>
+        </div>
+        <div>
+          <strong>Audit trail</strong>
+          <span>Approval status and action outcome are logged.</span>
+        </div>
+        <div>
+          <strong>OEM-only drivers</strong>
+          <span>Dell, HP, Lenovo, and Surface paths stay vendor-approved.</span>
+        </div>
+        <div>
+          <strong>Model choice</strong>
+          <span>Choose OpenRouter, free, paid, or custom models at startup.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section install-section" id="install" aria-labelledby="install-title">
+      <div class="section-heading">
+        <p class="section-kicker">Install</p>
+        <h2 id="install-title">Set up on a Windows endpoint</h2>
+      </div>
+      <div class="install-layout">
+        <ol class="steps">
+          <li>Download and extract <strong>EndpointSupportAgent-Setup.zip</strong>.</li>
+          <li>Open PowerShell as Administrator.</li>
+          <li>Run <strong>Set-ExecutionPolicy -Scope Process Bypass -Force</strong>.</li>
+          <li>Run <strong>.\install-endpoint-support-agent.ps1</strong>.</li>
+          <li>Edit the generated <strong>.env</strong> file and add your OpenRouter API key.</li>
+          <li>Launch the agent from the created shortcut or run <strong>Start-EndpointSupportAgent.ps1</strong>.</li>
+        </ol>
+        <div class="requirements">
+          <h3>Requirements</h3>
+          <ul>
+            <li>Windows 10 or Windows 11 endpoint</li>
+            <li>Python 3.10 or newer</li>
+            <li>Internet access for model list, dependencies, and OEM utility install</li>
+            <li>Administrator session for driver/OEM remediation</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section" aria-labelledby="cta-title">
+      <p class="section-kicker">Ready to package</p>
+      <h2 id="cta-title">Ship the helpdesk assistant as a simple download.</h2>
+      <a class="button primary" href="downloads/EndpointSupportAgent-Setup.zip" download>
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12 3v11"></path>
+          <path d="m7 10 5 5 5-5"></path>
+          <path d="M5 21h14"></path>
+        </svg>
+        Download setup package
+      </a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>Endpoint Support Agent</span>
+    <span>MCP Hybrid Helpdesk Console</span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
