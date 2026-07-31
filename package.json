@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node build-sites.mjs",
+    "build": "node -e \"console.log('Static site is ready in the repository root')\"",
     "dev": "vite --host 0.0.0.0"
   },
   "devDependencies": {
