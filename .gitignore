@@ -4,3 +4,4 @@ dist/
 downloads/*.tmp
 downloads/*.sed
 downloads/EndpointSupportAgent-Setup/
+downloads/EndpointSupportAgent-Setup.exe

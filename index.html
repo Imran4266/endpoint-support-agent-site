@@ -26,13 +26,13 @@
       <a href="#security">Security</a>
       <a href="#install">Install</a>
     </nav>
-    <a class="header-download" href="downloads/EndpointSupportAgent-Setup.exe" download>
+    <a class="header-download" href="downloads/EndpointSupportAgent-Setup.zip" download>
       <svg viewBox="0 0 24 24" aria-hidden="true">
         <path d="M12 3v11"></path>
         <path d="m7 10 5 5 5-5"></path>
         <path d="M5 21h14"></path>
       </svg>
-      Download
+      Download ZIP
     </a>
   </header>
 
@@ -69,13 +69,13 @@
           common Windows, productivity, network, device, and OEM driver problems.
         </p>
         <div class="hero-actions">
-          <a class="button primary" href="downloads/EndpointSupportAgent-Setup.exe" download>
+          <a class="button primary" href="downloads/EndpointSupportAgent-Setup.zip" download>
             <svg viewBox="0 0 24 24" aria-hidden="true">
               <path d="M12 3v11"></path>
               <path d="m7 10 5 5 5-5"></path>
               <path d="M5 21h14"></path>
             </svg>
-            Download setup
+            Download ZIP setup
           </a>
           <a class="button secondary" href="#install">
             <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -95,36 +95,28 @@
     <section class="download-band" aria-labelledby="download-title">
       <div>
         <p class="section-kicker">Current package</p>
-        <h2 id="download-title">Download the setup EXE</h2>
+        <h2 id="download-title">Download the setup ZIP</h2>
         <p>
-          A Windows setup executable that installs the agent, MCP server files, dependencies, and launch helper.
+          A Windows setup package that includes the agent, MCP server files, dependencies, and launch helper.
         </p>
         <p class="download-note">
-          This build is currently unsigned, so Chrome or Windows SmartScreen may warn until the installer is code signed.
-          Verify the SHA256 before running.
+          The unsigned EXE has been removed from public download because browsers and Defender may block new unsigned installers.
+          Use the ZIP package until a signed installer is available.
         </p>
         <p class="hash-line">
-          EXE SHA256:
-          <code>3529DF9D5565D118FD2564966929273E0CD89A157FA61C68AB5588B48C3E8692</code>
+          ZIP SHA256:
+          <code>24E56AB6524E2AB3A0CCD0FCC53EB7E692EF4DF342EBE93DC27A79A41E1F3096</code>
         </p>
       </div>
       <div class="download-actions">
-        <a class="button primary compact" href="downloads/EndpointSupportAgent-Setup.exe" download>
-          <svg viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M12 3v11"></path>
-            <path d="m7 10 5 5 5-5"></path>
-            <path d="M5 21h14"></path>
-          </svg>
-          EndpointSupportAgent-Setup.exe
-        </a>
-        <a class="button secondary compact" href="downloads/EndpointSupportAgent-Setup.zip" download>
+        <a class="button primary compact" href="downloads/EndpointSupportAgent-Setup.zip" download>
           <svg viewBox="0 0 24 24" aria-hidden="true">
             <path d="M21 8v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8"></path>
             <path d="M3 8l3-5h12l3 5"></path>
             <path d="M12 12v5"></path>
             <path d="m9 15 3 3 3-3"></path>
           </svg>
-          Download ZIP fallback
+          EndpointSupportAgent-Setup.zip
         </a>
       </div>
     </section>
@@ -244,10 +236,10 @@
       </div>
       <div class="install-layout">
         <ol class="steps">
-          <li>Download <strong>EndpointSupportAgent-Setup.exe</strong>.</li>
-          <li>Run the setup file &mdash; it will automatically install Python and Node.js if not already present.</li>
+          <li>Download <strong>EndpointSupportAgent-Setup.zip</strong>.</li>
+          <li>Extract the ZIP package.</li>
+          <li>Run <strong>install-endpoint-support-agent.ps1</strong> as Administrator &mdash; it will automatically install Python and Node.js if not already present.</li>
           <li>Launch the agent from the created shortcut and paste your API key when prompted.</li>
-          <li>If your browser blocks the unsigned EXE, download the ZIP fallback, extract it, and run <strong>install-endpoint-support-agent.ps1</strong> as Administrator.</li>
         </ol>
         <div class="requirements">
           <h3>Requirements</h3>
@@ -266,13 +258,13 @@
     <section class="cta-section" aria-labelledby="cta-title">
       <p class="section-kicker">Ready to package</p>
       <h2 id="cta-title">Ship the helpdesk assistant as a simple download.</h2>
-      <a class="button primary" href="downloads/EndpointSupportAgent-Setup.exe" download>
+      <a class="button primary" href="downloads/EndpointSupportAgent-Setup.zip" download>
         <svg viewBox="0 0 24 24" aria-hidden="true">
           <path d="M12 3v11"></path>
           <path d="m7 10 5 5 5-5"></path>
           <path d="M5 21h14"></path>
         </svg>
-        Download setup package
+        Download ZIP package
       </a>
     </section>
   </main>
